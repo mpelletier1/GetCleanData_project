@@ -6,7 +6,7 @@ Human Activity Recognition on Smartphones uiing a Multiclass Hardware-Friendly S
 International Workshop of Ambient Assisted Living (IWAAL 2012). Victoria-Gasteiz, Spain. Dec 2012.
 
 >30 volunteers (19-48) performed 6 activities while wearing a smartphone, 
-which recorded 3-axial linear acceleration and angular velocity
+which recorded 3-axial linear acceleration and angular velocity  
 
 >Information on the variables collected in this exercise can be found in the features_info.txt file which can be downloaded from: https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 ---
