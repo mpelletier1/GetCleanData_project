@@ -1,14 +1,13 @@
----
-##This Project uses the Human Activity Using SmartPhones Dataset
 
+##This Project uses the Human Activity Using SmartPhones Dataset
+---
 >Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. 
 Human Activity Recognition on Smartphones uiing a Multiclass Hardware-Friendly Support Vector Machine.  
 International Workshop of Ambient Assisted Living (IWAAL 2012). Victoria-Gasteiz, Spain. Dec 2012.
 
->30 volunteers (19-48) performed 6 activities while wearing a smartphone, which recorded 3-axial linear acceleration and angular velocity
----
+>30 volunteers (19-48) performed 6 activities while wearing a smartphone, 
+which recorded 3-axial linear acceleration and angular velocity
 
----
 >Information on the variables collected in this exercise can be found in the features_info.txt file which can be downloaded from: https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 ---
 
@@ -82,33 +81,36 @@ International Workshop of Ambient Assisted Living (IWAAL 2012). Victoria-Gasteiz
 >fBodyGyroMag.std  
 >fBodyGyroJerkMag.mean  
 >fBodyGyroJerkMag.std  
----
 
 ---
+
+
 ## Variable metadata
+---
+>subject is the unique number assigned to each participant  
+>activity is the action the subject performed (e.g., walking, lying down)  
 
->subject is the unique number assigned to each participant
->activity is the action the subject performed (e.g., walking, lying down)
+>The t prefix refers to the time domain  
+>The f prefix refers to the frequency domain    
 
->The t prefix refers to the time domain
->The f prefix refers to the frequency domain
+>Motion data were divided into Body and Gravity measures    
+>Acc refers to acceleration  
+>Gyro refers to angular velocity  
+>Jerk adds jerk (sudden movement) to the variable  
+>Mag is magnitude  
+>.mean is the mean of that value  
+>.std is the standard deviation of that value  
+>.X refers to motion in the x direction  
+>.Y refers to motion in the y direction  
+>.Z refers to motion in the z direction  
 
->Motion data were divided into Body and Gravity measures
->Acc refers to acceleration
->Gyro refers to angular velocity
->Jerk adds jerk (sudden movement) to the variable
->Mag is magnitude
->.mean is the mean of that value
->.std is the standard deviation of that value
->.X refers to motion in the x direction
->.Y refers to motion in the y direction
->.Z refers to motion in the z direction
 ---
 
 ---
 ##UNITS
 
->all acceleration variables are in g force
->all angular velocity variables are radians/s
+>all acceleration variables are in g force  
+>all angular velocity variables are radians/s  
+
 ---
 
