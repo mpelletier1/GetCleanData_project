@@ -12,6 +12,7 @@ which recorded 3-axial linear acceleration and angular velocity
 ---
 
 ##List of Variables
+###The motion variables in tidy_data3 have the same column names as below but are the average of the original variables,summarized by subject and activity
 ----
 >subject  
 >activity  
